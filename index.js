@@ -85,6 +85,35 @@ app.post('/calculate-bmi', (req, res) => {
                         <p>${label}</p>
                     </div>
                     <a href="/" class="back-link">Calculate Again</a>
+                    
+                    <div class="bmi-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Category</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td class="underweight">Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 – 24.9</td>
+                                    <td class="normal">Normal</td>
+                                </tr>
+                                <tr>
+                                    <td>25 – 29.9</td>
+                                    <td class="overweight">Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30 and above</td>
+                                    <td class="obese">Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </body>
         </html>
