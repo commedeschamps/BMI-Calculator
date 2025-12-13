@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+html {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
@@ -92,6 +95,7 @@ button {
     text-transform: uppercase;
     letter-spacing: 1px;
     box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
 button:hover {
@@ -159,11 +163,6 @@ button:active {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(76, 175, 80, 0.5);
 }
-
-.green { background: linear-gradient(135deg, #2ecc71, #27ae60); }
-.blue { background: linear-gradient(135deg, #3498db, #2980b9); }
-.yellow { background: linear-gradient(135deg, #f1c40f, #f39c12); color: #333; }
-.red { background: linear-gradient(135deg, #e74c3c, #c0392b); }
 
 .bmi-table {
     width: 100%;
