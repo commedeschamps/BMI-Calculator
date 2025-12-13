@@ -164,3 +164,18 @@ button:active {
 .blue { background: linear-gradient(135deg, #3498db, #2980b9); }
 .yellow { background: linear-gradient(135deg, #f1c40f, #f39c12); color: #333; }
 .red { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+
+.bmi-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bmi-table th, .bmi-table td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 0.9rem;
+}
