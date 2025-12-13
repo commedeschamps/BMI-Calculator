@@ -32,6 +32,13 @@ body {
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
 }
 
+.health-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+}
+
 h1 {
     color: #fff;
     font-size: 2rem;
@@ -60,6 +67,7 @@ input {
     background: rgba(255, 255, 255, 0.05);
     color: #fff;
     font-size: 1.1rem;
+    font-family: inherit;
     transition: all 0.3s ease;
     outline: none;
 }
@@ -95,7 +103,7 @@ button {
     text-transform: uppercase;
     letter-spacing: 1px;
     box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    font-family: inherit;
 }
 
 button:hover {
@@ -166,15 +174,33 @@ button:active {
 
 .bmi-table {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 25px;
 }
+
+.bmi-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 .bmi-table th, .bmi-table td {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     padding: 12px 15px;
-    text-align: left;
+    text-align: center;
     font-size: 0.9rem;
 }
+
+.bmi-table th {
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.bmi-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.underweight { color: #6495ed; }
+.normal { color: #2e8b57; }
+.overweight { color: #ff8c00; }
+.obese { color: #dc143c; }
