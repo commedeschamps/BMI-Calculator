@@ -76,6 +76,9 @@ bmi-app/
 | GET | `/` | Renders the BMI calculator form |
 | POST | `/calculate-bmi` | Calculates BMI and returns result |
 
+# Deployed on
+https://bmi-calculator-rmtz.onrender.com
+
 ## License
 
 MIT
