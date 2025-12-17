@@ -68,6 +68,7 @@ bmi-app/
 - HTML5
 - CSS3 (with Inter font)
 - Nodemon
+- Eslint
 
 ## API Endpoints
 
